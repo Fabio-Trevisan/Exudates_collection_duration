@@ -48,18 +48,20 @@ ggbiplot(Exudates.pr, var.axes=FALSE, ellipse=TRUE,  labels=table$Sample, groups
   labs(caption = Caption) 
 
 # Time
-ggbiplot(Exudates.a, var.axes=FALSE, ellipse=TRUE,  labels=a$Sample, groups=a$Tr, scale = 1) +
+ggbiplot(Exudates.a, var.axes=FALSE, ellipse=TRUE, labels=a$Sample, groups=a$Tr, scale = 1) +
   theme_classic() + 
   ggtitle(Title) + 
   theme(plot.title = element_text(size=20, face="bold", hjust=0.5)) + 
-  labs(caption = Caption) 
+  labs(caption = Caption)+
+  scale_color_manual(values=c("grey77", "darkorange2", "slateblue3", "skyblue3"))
 
 # Tr
 ggbiplot(Exudates.a, var.axes=FALSE, ellipse=TRUE,  labels=a$Sample, groups=a$Time, scale = 1) +
   theme_classic() + 
   ggtitle(Title) + 
   theme(plot.title = element_text(size=20, face="bold", hjust=0.5)) + 
-  labs(caption = Caption) 
+  labs(caption = Caption) +
+  scale_color_manual(values=c("darkorange","red","brown"))
 
 
 

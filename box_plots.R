@@ -57,7 +57,7 @@ p1 <- ggplot(table_1_sum, aes(x= Tr, value, fill=Time)) +
   theme_bw() + geom_boxplot(width=0.5) +
   facet_wrap(~variable, scales="free") + 
   ylab("Relative abundance") + xlab("Treatments") + 
-  scale_fill_manual(values=c("white","red","brown"))
+  scale_fill_manual(values=c("darkorange","red","brown"))
 p1
 t <- "Tr"
 Stat <- "no-stat"
