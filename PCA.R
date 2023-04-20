@@ -1,66 +1,70 @@
 library(devtools)
 library(ggbiplot)
 
-
+table <- read.csv("DATA_GC_Exudates_ISTD-correction_Area.csv", sep=",",
+                  header=T)
+Caption <- "(ISTD_Area)"
 
 table <- read.csv("DATA_GC_Exudates_ISTD-correction_Hight.csv", sep=",",
                     header=T)
 Caption <- "(ISTD_Hight)"
-Title <- ("Exudates")
-  
-table <- read.csv("DATA_GC_Tissues_ISTD-correction_Area.csv", sep=",",
-                  header=T)
-Caption <- "(ISTD_Area)"
-Title <- ("GC_Root")
-Title <- ("GC_Shoot")
 
 nr. = ncol(table)
+
+table$Time <- as.factor(table$Time)
 
 
 
 #Groups definition or combination ####
-H2 <- table[table$`Time` == 2,] #S/N ratio filtering = 2
-H4 <- table[table$`Time` == 4,] #S/N ratio filtering = 4
-H6 <- table[table$`Time` == 6,] #S/N ratio filtering = 6
+#Time
+a <- table[table$`Time` == "2",]
+a <- table[table$`Time` == "4",]
+a <- table[table$`Time` == "6",]
+x <- a[1,3]
 
-R <- table[table$`Tissue` == "R",] #Selecting Root
-S <- table[table$`Tissue` == "S",] #Selecting Shoot
+#Tr
+a <- table[table$`Tr` == "C",]
+a <- table[table$`Tr` == "P",]
+a <- table[table$`Tr` == "F",]
+a <- table[table$`Tr` == "M",]
+x <- a[1,2]
+
+Title <- paste("Exudates", x, sep="_")
 
 
 
 # Principal components ####
-
-# GC
-Root.pr <- prcomp(R[,c(4:nr.)], scale = TRUE) #(change number of columns -> compounds identified)
-Shoot.pr <- prcomp(S[,c(4:nr.)], scale = TRUE) #(change number of columns -> compounds identified)
-
-# Exudates
 Exudates.pr <- prcomp(table[,c(4:nr.)], scale = TRUE) #(change number of columns -> compounds identified)
-Exudates.pr <- prcomp(H2[,c(4:nr.)], scale = TRUE) #(change number of columns -> compounds identified)
-Exudates.pr <- prcomp(H4[,c(4:nr.)], scale = TRUE) #(change number of columns -> compounds identified)
-Exudates.pr <- prcomp(H6[,c(4:nr.)], scale = TRUE) #(change number of columns -> compounds identified)
 
-Summary <- summary(Exudates.pr) #summary results PCA (variance explained by each Principal Component)
+Exudates.a <- prcomp(a[,c(4:nr.)], scale = TRUE) #(change number of columns -> compounds identified)
 
 
 
 # PCA plot ####
-# GC Root
-ggbiplot(Root.pr, var.axes=FALSE, ellipse=TRUE,  labels=R$Sample, groups=R$Tr, scale = 1) +
+ggbiplot(Exudates.pr, var.axes=FALSE, ellipse=TRUE,  labels=table$Sample, groups=table$Tr, scale = 1) +
   theme_classic() + 
   ggtitle(Title) + 
   theme(plot.title = element_text(size=20, face="bold", hjust=0.5)) + 
   labs(caption = Caption) 
 
-# GC Shoot
-ggbiplot(Shoot.pr, var.axes=FALSE, ellipse=TRUE,  labels=S$Sample, groups=S$Tr, scale = 1) +
+# Time
+ggbiplot(Exudates.a, var.axes=FALSE, ellipse=TRUE,  labels=a$Sample, groups=a$Tr, scale = 1) +
   theme_classic() + 
   ggtitle(Title) + 
   theme(plot.title = element_text(size=20, face="bold", hjust=0.5)) + 
   labs(caption = Caption) 
 
-#Save
-ggsave(filename = paste(Title, Caption, ".pdf", sep="_"), 
+# Tr
+ggbiplot(Exudates.a, var.axes=FALSE, ellipse=TRUE,  labels=a$Sample, groups=a$Time, scale = 1) +
+  theme_classic() + 
+  ggtitle(Title) + 
+  theme(plot.title = element_text(size=20, face="bold", hjust=0.5)) + 
+  labs(caption = Caption) 
+
+
+
+# Save ####
+ggsave(filename = paste("PCA", Title, Caption, ".pdf", sep="_"), 
        plot = last_plot(), 
        dpi = 600, units = "cm", 
        width = 50, height = 50, 
