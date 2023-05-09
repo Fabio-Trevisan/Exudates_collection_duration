@@ -4,13 +4,16 @@ library(reshape2)
 library(tidyverse)
 library(dplyr)
 
-table <- read.csv("DATA_GC_Exudates_ISTD-correction_Hight.csv", sep=",",
-                  header=T)
-Caption <- "(ISTD_Hight)"
+#Box plots
 
-table <- read.csv("DATA_GC_Exudates_ISTD-correction_Area.csv", sep=",",
-                  header=T)
-Caption <- "(ISTD_Area)"
+df <- read.csv("Exudates_ISTD_Area_.csv", sep=",",
+               header=T)
+df <- df[!str_detect(names(df), "Sample")]
+Caption <- "All"
+
+df <- read.csv("Exudates_Significant.csv", sep=",",
+               header=T)
+Caption <- "Significant"
 
 #table<-table %>% select(1,2,3:to end)
 table <- table[,-1]
@@ -73,7 +76,7 @@ Stat <- "stat"
 
 
 # Save
-ggsave(filename = paste("BoxPlot_Exudates", t, Caption, Stat, ".pdf", sep = "_"), plot = last_plot(), dpi = 600, units = "cm", width = 90, height = 90, scale = 1)
+ggsave(filename = paste("BoxPlot_Exudates", t, Stat, ".pdf", sep = "_"), plot = last_plot(), dpi = 600, units = "cm", width = 90, height = 90, scale = 1)
 
 ########
 warnings()

@@ -1,0 +1,2178 @@
+$Pyruvic.acid..1TMS.
+$Pyruvic.acid..1TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq  Mean Sq F value
+Time       2 0.069428 0.034714  8.9897
+Residuals 12 0.046338 0.003862        
+            Pr(>F)   
+Time      0.004113 **
+Residuals            
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’
+  0.1 ‘ ’ 1
+
+$Pyruvic.acid..1TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq  Mean Sq F value
+Time       2 0.097548 0.048774  3.5116
+Residuals 12 0.166672 0.013889        
+           Pr(>F)  
+Time      0.06301 .
+Residuals          
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’
+  0.1 ‘ ’ 1
+
+$Pyruvic.acid..1TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.07343 0.036715  0.9892
+Residuals 11 0.40827 0.037115        
+          Pr(>F)
+Time      0.4027
+Residuals       
+
+$Pyruvic.acid..1TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.12799 0.063994  1.4485
+Residuals 11 0.48597 0.044179        
+          Pr(>F)
+Time      0.2764
+Residuals       
+
+
+$Lactic.Acid..2TMS.
+$Lactic.Acid..2TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.017957 0.0089785  1.4604
+Residuals 12 0.073776 0.0061480        
+          Pr(>F)
+Time      0.2706
+Residuals       
+
+$Lactic.Acid..2TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq  Mean Sq F value
+Time       2 0.107018 0.053509  8.4545
+Residuals 12 0.075949 0.006329        
+            Pr(>F)   
+Time      0.005116 **
+Residuals            
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’
+  0.1 ‘ ’ 1
+
+$Lactic.Acid..2TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.13826 0.069129  5.7081
+Residuals 11 0.13322 0.012111        
+           Pr(>F)  
+Time      0.01993 *
+Residuals          
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’
+  0.1 ‘ ’ 1
+
+$Lactic.Acid..2TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.17802 0.089011  2.1898
+Residuals 11 0.44713 0.040648        
+          Pr(>F)
+Time      0.1583
+Residuals       
+
+
+$Valine..1TMS.
+$Valine..1TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df    Sum Sq   Mean Sq F value
+Time       2 0.0090333 0.0045167  3.2062
+Residuals 12 0.0169049 0.0014087        
+           Pr(>F)  
+Time      0.07664 .
+Residuals          
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’
+  0.1 ‘ ’ 1
+
+$Valine..1TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.23320 0.116601  2.7804
+Residuals 12 0.50324 0.041937        
+          Pr(>F)
+Time      0.1018
+Residuals       
+
+$Valine..1TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.15666 0.078330  2.7214
+Residuals 11 0.31661 0.028783        
+          Pr(>F)
+Time      0.1096
+Residuals       
+
+$Valine..1TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.09154 0.045768  1.1469
+Residuals 11 0.43898 0.039907        
+          Pr(>F)
+Time      0.3529
+Residuals       
+
+
+$Alanine..2TMS.
+$Alanine..2TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df    Sum Sq   Mean Sq F value
+Time       2 0.0024882 0.0012441  1.2147
+Residuals 12 0.0122908 0.0010242        
+          Pr(>F)
+Time      0.3308
+Residuals       
+
+$Alanine..2TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df    Sum Sq    Mean Sq
+Time       2 0.0010532 0.00052659
+Residuals 12 0.0065886 0.00054905
+          F value Pr(>F)
+Time       0.9591 0.4108
+Residuals               
+
+$Alanine..2TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.017353 0.0086766  0.3676
+Residuals 11 0.259652 0.0236047        
+          Pr(>F)
+Time      0.7006
+Residuals       
+
+$Alanine..2TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.17542 0.087708  1.0459
+Residuals 11 0.92248 0.083862        
+          Pr(>F)
+Time      0.3839
+Residuals       
+
+
+$Leucine..1TMS.
+$Leucine..1TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df    Sum Sq   Mean Sq F value
+Time       2 0.0089003 0.0044501  3.9977
+Residuals 12 0.0133582 0.0011132        
+           Pr(>F)  
+Time      0.04672 *
+Residuals          
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’
+  0.1 ‘ ’ 1
+
+$Leucine..1TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq  Mean Sq F value
+Time       2 0.077546 0.038773  3.4985
+Residuals 12 0.132992 0.011083        
+           Pr(>F)  
+Time      0.06353 .
+Residuals          
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’
+  0.1 ‘ ’ 1
+
+$Leucine..1TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.17291 0.086455   1.473
+Residuals 11 0.64564 0.058695        
+          Pr(>F)
+Time      0.2711
+Residuals       
+
+$Leucine..1TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq  Mean Sq F value
+Time       2 0.036664 0.018332  1.1944
+Residuals 11 0.168834 0.015348        
+          Pr(>F)
+Time      0.3393
+Residuals       
+
+
+$Valine..2TMS.
+$Valine..2TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df    Sum Sq    Mean Sq
+Time       2 0.0010107 0.00050537
+Residuals 12 0.0057843 0.00048203
+          F value Pr(>F)
+Time       1.0484 0.3805
+Residuals               
+
+$Valine..2TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df    Sum Sq   Mean Sq F value
+Time       2 0.0051057 0.0025528  1.3691
+Residuals 12 0.0223755 0.0018646        
+          Pr(>F)
+Time      0.2914
+Residuals       
+
+$Valine..2TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.001972 0.0009861  0.2009
+Residuals 11 0.053983 0.0049076        
+          Pr(>F)
+Time      0.8209
+Residuals       
+
+$Valine..2TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.17391 0.086953  1.2594
+Residuals 11 0.75949 0.069045        
+          Pr(>F)
+Time      0.3217
+Residuals       
+
+
+$Leucine..2TMS.
+$Leucine..2TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.002254 0.0011270  0.6373
+Residuals 12 0.021220 0.0017683        
+          Pr(>F)
+Time      0.5457
+Residuals       
+
+$Leucine..2TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.010140 0.0050699  2.9809
+Residuals 12 0.020409 0.0017008        
+           Pr(>F)  
+Time      0.08892 .
+Residuals          
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’
+  0.1 ‘ ’ 1
+
+$Leucine..2TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.007759 0.0038797  0.2686
+Residuals 11 0.158889 0.0144445        
+          Pr(>F)
+Time      0.7693
+Residuals       
+
+$Leucine..2TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.15565 0.077823  1.8336
+Residuals 11 0.46687 0.042443        
+          Pr(>F)
+Time      0.2055
+Residuals       
+
+
+$Threonine..2TMS.
+$Threonine..2TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq  Mean Sq F value
+Time       2 0.081114 0.040557  7.4902
+Residuals 12 0.064976 0.005415        
+            Pr(>F)   
+Time      0.007741 **
+Residuals            
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’
+  0.1 ‘ ’ 1
+
+$Threonine..2TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq  Mean Sq F value
+Time       2 0.072213 0.036106  3.8443
+Residuals 12 0.112707 0.009392        
+           Pr(>F)  
+Time      0.05126 .
+Residuals          
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’
+  0.1 ‘ ’ 1
+
+$Threonine..2TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq  Mean Sq F value
+Time       2 0.042975 0.021487  1.4498
+Residuals 11 0.163035 0.014821        
+          Pr(>F)
+Time      0.2762
+Residuals       
+
+$Threonine..2TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.05782 0.028909  0.9959
+Residuals 11 0.31930 0.029027        
+          Pr(>F)
+Time      0.4004
+Residuals       
+
+
+$Proline..2TMS.
+$Proline..2TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df    Sum Sq   Mean Sq F value
+Time       2 0.0021506 0.0010753   1.061
+Residuals 12 0.0121622 0.0010135        
+          Pr(>F)
+Time      0.3765
+Residuals       
+
+$Proline..2TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.013006 0.0065029  1.5302
+Residuals 12 0.050996 0.0042497        
+          Pr(>F)
+Time      0.2559
+Residuals       
+
+$Proline..2TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq  Mean Sq F value
+Time       2 0.004086 0.002043  0.1522
+Residuals 11 0.147607 0.013419        
+          Pr(>F)
+Time      0.8606
+Residuals       
+
+$Proline..2TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.10484 0.052419  0.8216
+Residuals 11 0.70178 0.063799        
+          Pr(>F)
+Time       0.465
+Residuals       
+
+
+$Succinic.acid..2TMS.
+$Succinic.acid..2TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df    Sum Sq    Mean Sq
+Time       2 0.0007335 0.00036675
+Residuals 12 0.0101483 0.00084569
+          F value Pr(>F)
+Time       0.4337 0.6579
+Residuals               
+
+$Succinic.acid..2TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.48187 0.240937    5.16
+Residuals 12 0.56032 0.046693        
+           Pr(>F)  
+Time      0.02415 *
+Residuals          
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’
+  0.1 ‘ ’ 1
+
+$Succinic.acid..2TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.003114 0.0015572  0.1932
+Residuals 11 0.088669 0.0080608        
+          Pr(>F)
+Time      0.8271
+Residuals       
+
+$Succinic.acid..2TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq   Mean Sq F value
+Time       2 0.00551 0.0027549  0.1151
+Residuals 11 0.26338 0.0239438        
+          Pr(>F)
+Time      0.8924
+Residuals       
+
+
+$Glycine..3TMS.
+$Glycine..3TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq  Mean Sq F value
+Time       2 0.014646 0.007323  2.0124
+Residuals 12 0.043668 0.003639        
+          Pr(>F)
+Time      0.1763
+Residuals       
+
+$Glycine..3TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.24174 0.120871  5.0932
+Residuals 12 0.28478 0.023732        
+           Pr(>F)  
+Time      0.02504 *
+Residuals          
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’
+  0.1 ‘ ’ 1
+
+$Glycine..3TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.26747 0.133736  9.6482
+Residuals 11 0.15247 0.013861        
+            Pr(>F)   
+Time      0.003802 **
+Residuals            
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’
+  0.1 ‘ ’ 1
+
+$Glycine..3TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.07780 0.038899  0.5313
+Residuals 11 0.80542 0.073220        
+          Pr(>F)
+Time      0.6022
+Residuals       
+
+
+$Fumaric.acid..2TMS.
+$Fumaric.acid..2TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df     Sum Sq    Mean Sq
+Time       2 9.4250e-06 4.7124e-06
+Residuals 12 3.1329e-04 2.6108e-05
+          F value Pr(>F)
+Time       0.1805 0.8371
+Residuals               
+
+$Fumaric.acid..2TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.17221 0.086106  1.4804
+Residuals 12 0.69797 0.058164        
+          Pr(>F)
+Time      0.2663
+Residuals       
+
+$Fumaric.acid..2TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df     Sum Sq    Mean Sq
+Time       2 0.00035254 0.00017627
+Residuals 11 0.00265262 0.00024115
+          F value Pr(>F)
+Time        0.731 0.5034
+Residuals               
+
+$Fumaric.acid..2TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df    Sum Sq    Mean Sq
+Time       2 0.0003163 0.00015816
+Residuals 11 0.0082116 0.00074651
+          F value Pr(>F)
+Time       0.2119 0.8123
+Residuals               
+
+
+$Serine..3TMS.
+$Serine..3TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.036489 0.0182443  3.1826
+Residuals 12 0.068790 0.0057325        
+           Pr(>F)  
+Time      0.07782 .
+Residuals          
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’
+  0.1 ‘ ’ 1
+
+$Serine..3TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq  Mean Sq F value
+Time       2 0.039964 0.019982  2.6185
+Residuals 12 0.091572 0.007631        
+          Pr(>F)
+Time      0.1138
+Residuals       
+
+$Serine..3TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.010216 0.0051082  0.3494
+Residuals 11 0.160831 0.0146210        
+          Pr(>F)
+Time      0.7127
+Residuals       
+
+$Serine..3TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.17214 0.086072  0.8721
+Residuals 11 1.08561 0.098692        
+          Pr(>F)
+Time      0.4451
+Residuals       
+
+
+$Methionine..1TMS.
+$Methionine..1TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.018397 0.0091983  0.5838
+Residuals 12 0.189068 0.0157556        
+          Pr(>F)
+Time      0.5729
+Residuals       
+
+$Methionine..1TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.18587 0.092934  4.0047
+Residuals 12 0.27847 0.023206        
+           Pr(>F)  
+Time      0.04652 *
+Residuals          
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’
+  0.1 ‘ ’ 1
+
+$Methionine..1TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.06032 0.030159  0.5791
+Residuals 11 0.57292 0.052084        
+          Pr(>F)
+Time      0.5766
+Residuals       
+
+$Methionine..1TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.13872 0.069362  0.9877
+Residuals 11 0.77248 0.070225        
+          Pr(>F)
+Time      0.4032
+Residuals       
+
+
+$Aspartic.acid..2TMS.
+$Aspartic.acid..2TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df    Sum Sq    Mean Sq
+Time       2 0.0004406 0.00022031
+Residuals 12 0.0041334 0.00034445
+          F value Pr(>F)
+Time       0.6396 0.5446
+Residuals               
+
+$Aspartic.acid..2TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.15650 0.078250  1.3596
+Residuals 12 0.69066 0.057555        
+          Pr(>F)
+Time      0.2936
+Residuals       
+
+$Aspartic.acid..2TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.009257 0.0046285  1.5329
+Residuals 11 0.033215 0.0030195        
+          Pr(>F)
+Time      0.2587
+Residuals       
+
+$Aspartic.acid..2TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.11139 0.055693  1.3445
+Residuals 11 0.45564 0.041422        
+          Pr(>F)
+Time      0.3003
+Residuals       
+
+
+$Glutamine...H2O...2TMS.
+$Glutamine...H2O...2TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df    Sum Sq   Mean Sq F value
+Time       2 0.0026654 0.0013327  0.8556
+Residuals 12 0.0186908 0.0015576        
+          Pr(>F)
+Time      0.4494
+Residuals       
+
+$Glutamine...H2O...2TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.023224 0.0116119  4.2679
+Residuals 12 0.032649 0.0027208        
+           Pr(>F)  
+Time      0.03981 *
+Residuals          
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’
+  0.1 ‘ ’ 1
+
+$Glutamine...H2O...2TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.17085 0.085423   1.038
+Residuals 11 0.90528 0.082298        
+          Pr(>F)
+Time      0.3864
+Residuals       
+
+$Glutamine...H2O...2TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.001382 0.0006910  0.0799
+Residuals 11 0.095185 0.0086532        
+          Pr(>F)
+Time      0.9238
+Residuals       
+
+
+$Malic.acid..3TMS.
+$Malic.acid..3TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df     Sum Sq    Mean Sq
+Time       2 0.00010603 5.3014e-05
+Residuals 12 0.00033289 2.7741e-05
+          F value Pr(>F)
+Time        1.911 0.1903
+Residuals               
+
+$Malic.acid..3TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.22982 0.114910  1.8591
+Residuals 12 0.74170 0.061809        
+          Pr(>F)
+Time       0.198
+Residuals       
+
+$Malic.acid..3TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df     Sum Sq    Mean Sq
+Time       2 0.00015898 7.9488e-05
+Residuals 11 0.00031475 2.8614e-05
+          F value Pr(>F)
+Time        2.778 0.1055
+Residuals               
+
+$Malic.acid..3TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df     Sum Sq    Mean Sq
+Time       2 0.00013808 6.9041e-05
+Residuals 11 0.00032120 2.9200e-05
+          F value Pr(>F)
+Time       2.3644 0.1399
+Residuals               
+
+
+$Aspartic.acid..3TMS.
+$Aspartic.acid..3TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.006699 0.0033496  0.9006
+Residuals 12 0.044631 0.0037192        
+          Pr(>F)
+Time      0.4321
+Residuals       
+
+$Aspartic.acid..3TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.16747 0.083733  1.4784
+Residuals 12 0.67965 0.056637        
+          Pr(>F)
+Time      0.2667
+Residuals       
+
+$Aspartic.acid..3TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df    Sum Sq   Mean Sq F value
+Time       2 0.0090794 0.0045397  2.5054
+Residuals 11 0.0199317 0.0018120        
+          Pr(>F)
+Time      0.1269
+Residuals       
+
+$Aspartic.acid..3TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.018339 0.0091696  0.6548
+Residuals 11 0.154032 0.0140029        
+          Pr(>F)
+Time      0.5386
+Residuals       
+
+
+$Methionine..2TMS.
+$Methionine..2TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.015051 0.0075256  1.7706
+Residuals 12 0.051003 0.0042503        
+          Pr(>F)
+Time      0.2119
+Residuals       
+
+$Methionine..2TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.038117 0.0190586  4.2587
+Residuals 12 0.053703 0.0044752        
+           Pr(>F)  
+Time      0.04003 *
+Residuals          
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’
+  0.1 ‘ ’ 1
+
+$Methionine..2TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.05066 0.025328  0.7628
+Residuals 11 0.36525 0.033204        
+          Pr(>F)
+Time      0.4895
+Residuals       
+
+$Methionine..2TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.21266 0.106330  1.5387
+Residuals 11 0.76016 0.069106        
+          Pr(>F)
+Time      0.2575
+Residuals       
+
+
+$Glutamic.acid..2TMS.
+$Glutamic.acid..2TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.003451 0.0017255  0.4894
+Residuals 12 0.042307 0.0035256        
+          Pr(>F)
+Time      0.6247
+Residuals       
+
+$Glutamic.acid..2TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.19752 0.098762  2.5585
+Residuals 12 0.46321 0.038601        
+          Pr(>F)
+Time      0.1187
+Residuals       
+
+$Glutamic.acid..2TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq  Mean Sq F value
+Time       2 0.032709 0.016354  0.6538
+Residuals 11 0.275153 0.025014        
+          Pr(>F)
+Time      0.5391
+Residuals       
+
+$Glutamic.acid..2TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.04320 0.021601  0.4452
+Residuals 11 0.53378 0.048525        
+          Pr(>F)
+Time      0.6518
+Residuals       
+
+
+$`2.Oxoglutaric.acid..1MEOX...2TMS..BP`
+$`2.Oxoglutaric.acid..1MEOX...2TMS..BP`$C
+Analysis of Variance Table
+
+Response: Value
+          Df    Sum Sq   Mean Sq F value
+Time       2 0.0033098 0.0016549  0.7006
+Residuals 12 0.0283467 0.0023622        
+          Pr(>F)
+Time      0.5155
+Residuals       
+
+$`2.Oxoglutaric.acid..1MEOX...2TMS..BP`$F
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq Mean Sq F value
+Time       2 0.22262 0.11131   2.403
+Residuals 12 0.55584 0.04632        
+          Pr(>F)
+Time      0.1325
+Residuals       
+
+$`2.Oxoglutaric.acid..1MEOX...2TMS..BP`$M
+Analysis of Variance Table
+
+Response: Value
+          Df    Sum Sq   Mean Sq F value
+Time       2 0.0024005 0.0012003  0.5772
+Residuals 11 0.0228753 0.0020796        
+          Pr(>F)
+Time      0.5776
+Residuals       
+
+$`2.Oxoglutaric.acid..1MEOX...2TMS..BP`$P
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq  Mean Sq F value
+Time       2 0.065156 0.032578  4.6348
+Residuals 11 0.077319 0.007029        
+           Pr(>F)  
+Time      0.03467 *
+Residuals          
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’
+  0.1 ‘ ’ 1
+
+
+$Threonic.acid..4TMS.
+$Threonic.acid..4TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.03162 0.015810  1.0756
+Residuals 12 0.17639 0.014699        
+          Pr(>F)
+Time      0.3718
+Residuals       
+
+$Threonic.acid..4TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.31664 0.158318  2.2809
+Residuals 12 0.83294 0.069412        
+          Pr(>F)
+Time      0.1447
+Residuals       
+
+$Threonic.acid..4TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.028087 0.0140433  1.8211
+Residuals 11 0.084828 0.0077116        
+          Pr(>F)
+Time      0.2074
+Residuals       
+
+$Threonic.acid..4TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq   Mean Sq F value
+Time       2 0.00898 0.0044875  0.1445
+Residuals 11 0.34153 0.0310483        
+          Pr(>F)
+Time       0.867
+Residuals       
+
+
+$`2.Oxoglutaric.acid..1MEOX...2TMS..MP`
+$`2.Oxoglutaric.acid..1MEOX...2TMS..MP`$C
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.002808 0.0014040  1.0629
+Residuals 12 0.015851 0.0013209        
+          Pr(>F)
+Time      0.3758
+Residuals       
+
+$`2.Oxoglutaric.acid..1MEOX...2TMS..MP`$F
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.20622 0.103110  1.6636
+Residuals 12 0.74374 0.061979        
+          Pr(>F)
+Time      0.2303
+Residuals       
+
+$`2.Oxoglutaric.acid..1MEOX...2TMS..MP`$M
+Analysis of Variance Table
+
+Response: Value
+          Df     Sum Sq    Mean Sq
+Time       2 2.1925e-05 1.0963e-05
+Residuals 11 6.8221e-05 6.2019e-06
+          F value Pr(>F)
+Time       1.7676 0.2159
+Residuals               
+
+$`2.Oxoglutaric.acid..1MEOX...2TMS..MP`$P
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.012006 0.0060028  0.8825
+Residuals 11 0.074819 0.0068018        
+          Pr(>F)
+Time      0.4411
+Residuals       
+
+
+$Glutamic.acid..3TMS.
+$Glutamic.acid..3TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.008841 0.0044206  0.3597
+Residuals 12 0.147476 0.0122897        
+          Pr(>F)
+Time      0.7052
+Residuals       
+
+$Glutamic.acid..3TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.17654 0.088269  1.5532
+Residuals 12 0.68197 0.056831        
+          Pr(>F)
+Time      0.2513
+Residuals       
+
+$Glutamic.acid..3TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df    Sum Sq   Mean Sq F value
+Time       2 0.0059616 0.0029808  2.0559
+Residuals 11 0.0159483 0.0014498        
+          Pr(>F)
+Time      0.1743
+Residuals       
+
+$Glutamic.acid..3TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.002422 0.0012109  0.2503
+Residuals 11 0.053209 0.0048372        
+          Pr(>F)
+Time      0.7829
+Residuals       
+
+
+$Phenylalanine..2TMS.
+$Phenylalanine..2TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq  Mean Sq F value
+Time       2 0.049491 0.024746     2.1
+Residuals 12 0.141404 0.011784        
+          Pr(>F)
+Time      0.1652
+Residuals       
+
+$Phenylalanine..2TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.13664 0.068320  1.9349
+Residuals 12 0.42371 0.035309        
+          Pr(>F)
+Time      0.1869
+Residuals       
+
+$Phenylalanine..2TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.08736 0.043680  1.6115
+Residuals 11 0.29815 0.027104        
+          Pr(>F)
+Time      0.2433
+Residuals       
+
+$Phenylalanine..2TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.03974 0.019868   0.232
+Residuals 11 0.94183 0.085621        
+          Pr(>F)
+Time      0.7967
+Residuals       
+
+
+$Asparagine..3TMS.
+$Asparagine..3TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.008201 0.0041004  0.6958
+Residuals 12 0.070722 0.0058935        
+          Pr(>F)
+Time      0.5177
+Residuals       
+
+$Asparagine..3TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.40371 0.201853  3.0069
+Residuals 12 0.80557 0.067131        
+           Pr(>F)  
+Time      0.08739 .
+Residuals          
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’
+  0.1 ‘ ’ 1
+
+$Asparagine..3TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.002148 0.0010738  0.1391
+Residuals 11 0.084933 0.0077212        
+          Pr(>F)
+Time      0.8717
+Residuals       
+
+$Asparagine..3TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq  Mean Sq F value
+Time       2 0.026671 0.013336  0.5105
+Residuals 11 0.287338 0.026122        
+          Pr(>F)
+Time      0.6137
+Residuals       
+
+
+$Putrescine..4TMS.
+$Putrescine..4TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq   Mean Sq F value
+Time       2 0.00016 0.0000814  0.0026
+Residuals 12 0.37907 0.0315889        
+          Pr(>F)
+Time      0.9974
+Residuals       
+
+$Putrescine..4TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.10965 0.054827  0.9166
+Residuals 12 0.71776 0.059813        
+          Pr(>F)
+Time      0.4261
+Residuals       
+
+$Putrescine..4TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.11661 0.058302   4.933
+Residuals 11 0.13001 0.011819        
+           Pr(>F)  
+Time      0.02956 *
+Residuals          
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’
+  0.1 ‘ ’ 1
+
+$Putrescine..4TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq  Mean Sq F value
+Time       2 0.053395 0.026698  1.1458
+Residuals 11 0.256308 0.023301        
+          Pr(>F)
+Time      0.3532
+Residuals       
+
+
+$Glutamine..3TMS.
+$Glutamine..3TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq  Mean Sq F value
+Time       2 0.024004 0.012002  1.0008
+Residuals 12 0.143907 0.011992        
+          Pr(>F)
+Time      0.3963
+Residuals       
+
+$Glutamine..3TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.015156 0.0075782  0.7741
+Residuals 12 0.117483 0.0097902        
+          Pr(>F)
+Time      0.4829
+Residuals       
+
+$Glutamine..3TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.05785 0.028926   0.345
+Residuals 11 0.92214 0.083831        
+          Pr(>F)
+Time      0.7156
+Residuals       
+
+$Glutamine..3TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.08226 0.041130  2.2754
+Residuals 11 0.19884 0.018076        
+          Pr(>F)
+Time      0.1489
+Residuals       
+
+
+$Ornithine..4TMS.
+$Ornithine..4TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.005648 0.0028239  0.5154
+Residuals 12 0.065745 0.0054788        
+          Pr(>F)
+Time      0.6099
+Residuals       
+
+$Ornithine..4TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.035579 0.0177896    5.46
+Residuals 12 0.039098 0.0032581        
+          Pr(>F)  
+Time      0.0206 *
+Residuals         
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’
+  0.1 ‘ ’ 1
+
+$Ornithine..4TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq  Mean Sq F value
+Time       2 0.044965 0.022482  1.2018
+Residuals 11 0.205788 0.018708        
+          Pr(>F)
+Time      0.3373
+Residuals       
+
+$Ornithine..4TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.00141 0.000705  0.0161
+Residuals 11 0.48207 0.043824        
+          Pr(>F)
+Time      0.9841
+Residuals       
+
+
+$Citric.acid..4TMS.
+$Citric.acid..4TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df     Sum Sq    Mean Sq
+Time       2 0.00019654 9.8270e-05
+Residuals 12 0.00079748 6.6457e-05
+          F value Pr(>F)
+Time       1.4787 0.2667
+Residuals               
+
+$Citric.acid..4TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.40201 0.201004  6.8139
+Residuals 12 0.35399 0.029499        
+           Pr(>F)  
+Time      0.01054 *
+Residuals          
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’
+  0.1 ‘ ’ 1
+
+$Citric.acid..4TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.014843 0.0074216  0.6867
+Residuals 11 0.118889 0.0108081        
+          Pr(>F)
+Time      0.5236
+Residuals       
+
+$Citric.acid..4TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df Sum Sq  Mean Sq F value
+Time       2 0.0718 0.035899   0.332
+Residuals 11 1.1895 0.108137        
+          Pr(>F)
+Time      0.7244
+Residuals       
+
+
+$Fructose..1MEOX...5TMS..MP
+$Fructose..1MEOX...5TMS..MP$C
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq  Mean Sq F value
+Time       2 0.042876 0.021438  1.6839
+Residuals 12 0.152775 0.012731        
+          Pr(>F)
+Time      0.2267
+Residuals       
+
+$Fructose..1MEOX...5TMS..MP$F
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.07829 0.039144  1.2221
+Residuals 12 0.38437 0.032031        
+          Pr(>F)
+Time      0.3288
+Residuals       
+
+$Fructose..1MEOX...5TMS..MP$M
+Analysis of Variance Table
+
+Response: Value
+          Df    Sum Sq   Mean Sq F value
+Time       2 0.0027021 0.0013511  0.8278
+Residuals 11 0.0179532 0.0016321        
+          Pr(>F)
+Time      0.4625
+Residuals       
+
+$Fructose..1MEOX...5TMS..MP$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.11653 0.058264  0.6475
+Residuals 11 0.98976 0.089978        
+          Pr(>F)
+Time      0.5422
+Residuals       
+
+
+$Fructose..1MEOX...5TMS..BP
+$Fructose..1MEOX...5TMS..BP$C
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq  Mean Sq F value
+Time       2 0.054057 0.027028  1.9049
+Residuals 12 0.170263 0.014189        
+          Pr(>F)
+Time      0.1912
+Residuals       
+
+$Fructose..1MEOX...5TMS..BP$F
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.08372 0.041861  1.0444
+Residuals 12 0.48096 0.040080        
+          Pr(>F)
+Time      0.3818
+Residuals       
+
+$Fructose..1MEOX...5TMS..BP$M
+Analysis of Variance Table
+
+Response: Value
+          Df    Sum Sq   Mean Sq F value
+Time       2 0.0021651 0.0010825  0.8387
+Residuals 11 0.0141978 0.0012907        
+          Pr(>F)
+Time      0.4581
+Residuals       
+
+$Fructose..1MEOX...5TMS..BP$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.11784 0.058922  0.6499
+Residuals 11 0.99722 0.090657        
+          Pr(>F)
+Time       0.541
+Residuals       
+
+
+$Glucose..1MEOX...5TMS..MP
+$Glucose..1MEOX...5TMS..MP$C
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq  Mean Sq F value
+Time       2 0.038143 0.019072  1.6528
+Residuals 12 0.138471 0.011539        
+          Pr(>F)
+Time      0.2323
+Residuals       
+
+$Glucose..1MEOX...5TMS..MP$F
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq  Mean Sq F value
+Time       2 0.097533 0.048767  3.2001
+Residuals 12 0.182871 0.015239        
+           Pr(>F)  
+Time      0.07694 .
+Residuals          
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’
+  0.1 ‘ ’ 1
+
+$Glucose..1MEOX...5TMS..MP$M
+Analysis of Variance Table
+
+Response: Value
+          Df    Sum Sq   Mean Sq F value
+Time       2 0.0078408 0.0039204  2.5272
+Residuals 11 0.0170644 0.0015513        
+          Pr(>F)
+Time       0.125
+Residuals       
+
+$Glucose..1MEOX...5TMS..MP$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.13671 0.068356  0.6151
+Residuals 11 1.22245 0.111132        
+          Pr(>F)
+Time      0.5582
+Residuals       
+
+
+$Galactose..1MEOX...5TMS..MP
+$Galactose..1MEOX...5TMS..MP$C
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq  Mean Sq F value
+Time       2 0.038919 0.019459  1.6542
+Residuals 12 0.141164 0.011764        
+          Pr(>F)
+Time       0.232
+Residuals       
+
+$Galactose..1MEOX...5TMS..MP$F
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq  Mean Sq F value
+Time       2 0.096088 0.048044  3.2153
+Residuals 12 0.179311 0.014943        
+           Pr(>F)  
+Time      0.07618 .
+Residuals          
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’
+  0.1 ‘ ’ 1
+
+$Galactose..1MEOX...5TMS..MP$M
+Analysis of Variance Table
+
+Response: Value
+          Df    Sum Sq   Mean Sq F value
+Time       2 0.0071867 0.0035934  2.3143
+Residuals 11 0.0170795 0.0015527        
+          Pr(>F)
+Time      0.1449
+Residuals       
+
+$Galactose..1MEOX...5TMS..MP$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.14214 0.071071  0.6143
+Residuals 11 1.27263 0.115694        
+          Pr(>F)
+Time      0.5586
+Residuals       
+
+
+$Lysine..4TMS.
+$Lysine..4TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.012155 0.0060776  2.1479
+Residuals 12 0.033954 0.0028295        
+          Pr(>F)
+Time      0.1594
+Residuals       
+
+$Lysine..4TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq  Mean Sq F value
+Time       2 0.079633 0.039817  2.6468
+Residuals 12 0.180520 0.015043        
+          Pr(>F)
+Time      0.1116
+Residuals       
+
+$Lysine..4TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq  Mean Sq F value
+Time       2 0.084479 0.042240  1.9435
+Residuals 11 0.239071 0.021734        
+          Pr(>F)
+Time      0.1893
+Residuals       
+
+$Lysine..4TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.02827 0.014135  0.2612
+Residuals 11 0.59523 0.054112        
+          Pr(>F)
+Time      0.7748
+Residuals       
+
+
+$Galactose..1MEOX...5TMS..BP
+$Galactose..1MEOX...5TMS..BP$C
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq  Mean Sq F value
+Time       2 0.047834 0.023917  1.5902
+Residuals 12 0.180480 0.015040        
+          Pr(>F)
+Time       0.244
+Residuals       
+
+$Galactose..1MEOX...5TMS..BP$F
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.11703 0.058516  2.9352
+Residuals 12 0.23923 0.019936        
+           Pr(>F)  
+Time      0.09168 .
+Residuals          
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’
+  0.1 ‘ ’ 1
+
+$Galactose..1MEOX...5TMS..BP$M
+Analysis of Variance Table
+
+Response: Value
+          Df    Sum Sq   Mean Sq F value
+Time       2 0.0061955 0.0030978  2.2895
+Residuals 11 0.0148831 0.0013530        
+          Pr(>F)
+Time      0.1475
+Residuals       
+
+$Galactose..1MEOX...5TMS..BP$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.13903 0.069516  0.6145
+Residuals 11 1.24430 0.113118        
+          Pr(>F)
+Time      0.5585
+Residuals       
+
+
+$Tyrosine..3TMS.
+$Tyrosine..3TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df    Sum Sq   Mean Sq F value
+Time       2 0.0031048 0.0015524  0.6559
+Residuals 12 0.0284022 0.0023669        
+          Pr(>F)
+Time      0.5366
+Residuals       
+
+$Tyrosine..3TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.14282 0.071409  1.2888
+Residuals 12 0.66487 0.055406        
+          Pr(>F)
+Time      0.3111
+Residuals       
+
+$Tyrosine..3TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.010612 0.0053059  2.3253
+Residuals 11 0.025100 0.0022818        
+          Pr(>F)
+Time      0.1438
+Residuals       
+
+$Tyrosine..3TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.05917 0.029585  0.5099
+Residuals 11 0.63826 0.058023        
+          Pr(>F)
+Time      0.6141
+Residuals       
+
+
+$Glucose..1MEOX...5TMS..BP
+$Glucose..1MEOX...5TMS..BP$C
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.000717 0.0003586  0.0314
+Residuals 12 0.136977 0.0114147        
+          Pr(>F)
+Time      0.9692
+Residuals       
+
+$Glucose..1MEOX...5TMS..BP$F
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.12985 0.064927  0.7696
+Residuals 12 1.01242 0.084368        
+          Pr(>F)
+Time      0.4848
+Residuals       
+
+$Glucose..1MEOX...5TMS..BP$M
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.010852 0.0054258  0.5853
+Residuals 11 0.101969 0.0092699        
+          Pr(>F)
+Time      0.5734
+Residuals       
+
+$Glucose..1MEOX...5TMS..BP$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.04615 0.023074  0.5179
+Residuals 11 0.49010 0.044555        
+          Pr(>F)
+Time      0.6096
+Residuals       
+
+
+$Gluconic.acid..6TMS.
+$Gluconic.acid..6TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.007289 0.0036443  1.1133
+Residuals 12 0.039280 0.0032733        
+          Pr(>F)
+Time      0.3601
+Residuals       
+
+$Gluconic.acid..6TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.26566 0.132829  1.5519
+Residuals 12 1.02710 0.085592        
+          Pr(>F)
+Time      0.2515
+Residuals       
+
+$Gluconic.acid..6TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df     Sum Sq    Mean Sq
+Time       2 2.2285e-05 1.1143e-05
+Residuals 11 8.9045e-05 8.0950e-06
+          F value Pr(>F)
+Time       1.3765 0.2927
+Residuals               
+
+$Gluconic.acid..6TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df     Sum Sq    Mean Sq
+Time       2 0.00027032 0.00013516
+Residuals 11 0.00157693 0.00014336
+          F value Pr(>F)
+Time       0.9428 0.4189
+Residuals               
+
+
+$myo.Inositol..6TMS.
+$myo.Inositol..6TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.007013 0.0035063  0.2834
+Residuals 12 0.148492 0.0123743        
+          Pr(>F)
+Time      0.7582
+Residuals       
+
+$myo.Inositol..6TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.16780 0.083898  2.3046
+Residuals 12 0.43685 0.036404        
+          Pr(>F)
+Time      0.1422
+Residuals       
+
+$myo.Inositol..6TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.08453 0.042267  1.1879
+Residuals 11 0.39140 0.035582        
+          Pr(>F)
+Time      0.3411
+Residuals       
+
+$myo.Inositol..6TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.03242 0.016211  0.2013
+Residuals 11 0.88568 0.080516        
+          Pr(>F)
+Time      0.8206
+Residuals       
+
+
+$Sucrose..8TMS.
+$Sucrose..8TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df    Sum Sq    Mean Sq
+Time       2 0.0028578 0.00142890
+Residuals 12 0.0072359 0.00060299
+          F value Pr(>F)
+Time       2.3697 0.1357
+Residuals               
+
+$Sucrose..8TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df     Sum Sq    Mean Sq
+Time       2 0.00007962 3.9808e-05
+Residuals 12 0.00224224 1.8685e-04
+          F value Pr(>F)
+Time        0.213 0.8111
+Residuals               
+
+$Sucrose..8TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df     Sum Sq    Mean Sq
+Time       2 0.00005192 2.5962e-05
+Residuals 11 0.00062223 5.6566e-05
+          F value Pr(>F)
+Time        0.459 0.6435
+Residuals               
+
+$Sucrose..8TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.10030 0.050148  0.6481
+Residuals 11 0.85118 0.077380        
+          Pr(>F)
+Time      0.5419
+Residuals       
+
+
+$Trehalose..8TMS.
+$Trehalose..8TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df    Sum Sq    Mean Sq
+Time       2 0.0000979 0.00004894
+Residuals 12 0.0044354 0.00036962
+          F value Pr(>F)
+Time       0.1324 0.8773
+Residuals               
+
+$Trehalose..8TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.036783 0.0183914  2.0873
+Residuals 12 0.105733 0.0088111        
+          Pr(>F)
+Time      0.1668
+Residuals       
+
+$Trehalose..8TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.025490 0.0127452  2.2038
+Residuals 11 0.063616 0.0057833        
+          Pr(>F)
+Time      0.1567
+Residuals       
+
+$Trehalose..8TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.10032 0.050160  0.8451
+Residuals 11 0.65287 0.059352        
+          Pr(>F)
+Time      0.4556
+Residuals       
+
+
+$Maltose..1MEOX...8TMS..MP
+$Maltose..1MEOX...8TMS..MP$C
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.02822 0.014108  0.4896
+Residuals 12 0.34577 0.028814        
+          Pr(>F)
+Time      0.6246
+Residuals       
+
+$Maltose..1MEOX...8TMS..MP$F
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.19397 0.096984  2.4027
+Residuals 12 0.48437 0.040364        
+          Pr(>F)
+Time      0.1326
+Residuals       
+
+$Maltose..1MEOX...8TMS..MP$M
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.015331 0.0076655  0.8559
+Residuals 11 0.098520 0.0089563        
+          Pr(>F)
+Time      0.4514
+Residuals       
+
+$Maltose..1MEOX...8TMS..MP$P
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.018067 0.0090334  0.3779
+Residuals 11 0.262948 0.0239044        
+          Pr(>F)
+Time      0.6939
+Residuals       
+
+
+$Melibiose..1MEOX...8TMS..BP
+$Melibiose..1MEOX...8TMS..BP$C
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq   Mean Sq F value
+Time       2 0.00446 0.0022302  0.2326
+Residuals 12 0.11505 0.0095876        
+          Pr(>F)
+Time      0.7959
+Residuals       
+
+$Melibiose..1MEOX...8TMS..BP$F
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.23861 0.119308  6.5638
+Residuals 12 0.21812 0.018177        
+           Pr(>F)  
+Time      0.01186 *
+Residuals          
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’
+  0.1 ‘ ’ 1
+
+$Melibiose..1MEOX...8TMS..BP$M
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.01503 0.007513  0.2158
+Residuals 11 0.38301 0.034819        
+          Pr(>F)
+Time      0.8093
+Residuals       
+
+$Melibiose..1MEOX...8TMS..BP$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.14770 0.073849  0.9787
+Residuals 11 0.83002 0.075456        
+          Pr(>F)
+Time      0.4063
+Residuals       
+
+
+$Galactinol..9TMS.
+$Galactinol..9TMS.$C
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.003513 0.0017567  0.4641
+Residuals 12 0.045419 0.0037849        
+          Pr(>F)
+Time      0.6395
+Residuals       
+
+$Galactinol..9TMS.$F
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.39993 0.199967   3.823
+Residuals 12 0.62767 0.052306        
+           Pr(>F)  
+Time      0.05193 .
+Residuals          
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’
+  0.1 ‘ ’ 1
+
+$Galactinol..9TMS.$M
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq   Mean Sq F value
+Time       2 0.004283 0.0021416  0.5034
+Residuals 11 0.046797 0.0042542        
+          Pr(>F)
+Time      0.6177
+Residuals       
+
+$Galactinol..9TMS.$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value
+Time       2 0.05332 0.026662  0.7441
+Residuals 11 0.39412 0.035829        
+          Pr(>F)
+Time      0.4976
+Residuals       
+
+
