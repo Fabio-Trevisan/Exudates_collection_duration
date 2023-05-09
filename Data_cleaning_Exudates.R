@@ -4,12 +4,15 @@ library(tidyr)
 library(stringr)
 
 
-#### ROOT EXUDATES ####
-table <- read.table("Exudates_Height.txt", sep="\t",
+#### ROOT EXUDATES (3 times)####
+table <- read.table("DATA_Exudates_Height.txt", sep="\t",
                     header=F)
+Title <- "Height"
 
-table <- read.table("Exudates_Area.txt", sep="\t",
+table <- read.table("DATA_Exudates_Area.txt", sep="\t",
                     header=F)
+Title <- "Area"
+nr. <- 75
 
 # Columns and lines cleaning ####
 ########## add cleaning of pool and pyr samples
@@ -23,10 +26,13 @@ x <- 7 #number of categories created in MSDial
 y <- c((ncol(table2)-x*2+1):ncol(table2)) #vector with columns to erase
 table3 <- table2[,-y]
 
+table3 <- table3[!str_detect(names(table3), "Pool")]
+table3 <- table3[!str_detect(names(table3), "Pyr")]
+
 table4 <- table3[table3$Comment!="",] #removal unchecked peaks
 table4 <- table4[table4$Comment!="no",] #removal checked peaks labelled with "no"
 
-table4[,c(1:3,6:88)] <- sapply(table4[,c(1:3,6:88)], as.numeric) #columns from character to numeric
+table4[,c(1:3,6:nr.)] <- sapply(table4[,c(1:3,6:nr.)], as.numeric) #columns from character to numeric
 
 
 
@@ -34,11 +40,11 @@ table4[,c(1:3,6:88)] <- sapply(table4[,c(1:3,6:88)], as.numeric) #columns from c
 z <- 3 #filtering ratio
 SN_filtered <- table4[table4$`S/N average`>z,] #S/N ratio filtering >z
 SN_filtered <- SN_filtered[,-6]
+nr. <- nr. -1
 
 
 
 # Sample/Blank ratio filtering ####
-########## Implement loop / apply to avoid repetition of commands
 Blank_filtering <- SN_filtered
 
 #caluclate means --> enter number of means to calculate according to the treatments
@@ -102,17 +108,20 @@ w <- 3 #filtering ratio
 Blank_filtered <- Blank_filtering[Blank_filtering$`Max_Ratio`>w,] #Sample/Blank ratio filtration > w
 
 #clening ratios and means from dataset
-Blank_filtered <- Blank_filtered[,1:65] #depends on number of samples check
+Blank_filtered <- Blank_filtered[,1:nr.] #depends on number of samples check
+Blank_filtered <- Blank_filtered[!str_detect(names(Blank_filtered), "Blank")]
+nr. <- nr.-9
 
 
 
 # ISTD normalization #### 
 Metabolites_info <- Blank_filtered[,1:5] #to add at the end 
-df <- Blank_filtered[,6:65] #select only numerical variables
+df <- Blank_filtered[,6:nr.] #select only numerical variables
 row.names(df) <-  unlist(Blank_filtered[,4]) #rename rows
+nr. <- nr.-5
 
 ISTD <- df["*13C Citric acid (4TMS)",] #select ISTD
-ISTD <- ISTD[rep(1, 46), ] #create df of equal size
+ISTD <- ISTD[rep(1,nrow(df)), ] #create df of equal size
 ISTD_Norm <- df/ISTD #dived the 2 df
 #poco elegante ma funziona
 ISTD_Norm <- ISTD_Norm[!(row.names(ISTD_Norm) %in% "*13C Citric acid (4TMS)"), ] #remove ISTD line
@@ -120,19 +129,15 @@ ISTD_Norm <- ISTD_Norm[!(row.names(ISTD_Norm) %in% "*13C Citric acid (4TMS)"), ]
 
 
 # FW or root weight normalization #### 
-FW <- read.csv("DATA_GC_exudates_Root_weight.csv", sep=";", header=F) #get FW or root weight
+FW <- read.csv("DATA_Exudates_Root_weight.csv", sep=";", header=F) #get FW or root weight
 row.names(FW) <-  unlist(FW[,1]) #rename rows
 names(FW) <-  unlist(FW[1,]) #rename columns
 FW <- FW[-1,-1] #remove headings columns/rows
 FW[] <- sapply(FW[], as.numeric) #set numeric variables
-FW <- FW[rep(1,45),] #create df of equal size
+FW <- FW[rep(1,nrow(ISTD_Norm)),] #create df of equal size
 
 # ISTD
 FW_norm <- ISTD_Norm/FW #dived the 2 df
-
-# no-ISTD
-df <- df[!(row.names(df) %in% "*13C Citric acid (4TMS)"), ] #remove ISTD line
-FW_norm <- df/FW #dive the 2 df
 
 
 
@@ -157,33 +162,7 @@ Clean_df <- Clean_df %>%
   separate(Names, c("Sample_Number", "Tr_Time")) #separate Sample Number from Treatment/Time
 Clean_df <- extract(Clean_df, Tr_Time, into = c("Tr", "Time"), "(.{1})(.{1})", remove=T) #separate Treatment from Time
 
-# DATA_GC_Exudates_noISTD-correction
-Clean_df2 <- data.frame(t(Relative_abundance)) #invert row/columns
-Clean_df2 <- data.frame(Names = row.names(Clean_df2), Clean_df2) #extract rownames into column
-rownames(Clean_df2) <- NULL
-
-Clean_df2 <- Clean_df2 %>%
-  separate(Names, c("Sample_Number", "Tr_Time")) #separate Sample Number from Treatment/Time
-Clean_df2 <- extract(Clean_df2, Tr_Time, into = c("Tr", "Time"), "(.{1})(.{1})", remove=T) #separate Treatment from Time
-
-# DATA_GC_Exudates_noRelativeAbundance_ISTD-correction
-Clean_df3 <- data.frame(t(FW_norm)) #invert row/columns
-Clean_df3 <- data.frame(Names = row.names(Clean_df3), Clean_df3) #extract rownames into column
-rownames(Clean_df3) <- NULL
-
-Clean_df3 <- Clean_df3 %>%
-  separate(Names, c("Sample_Number", "Tr_Time")) #separate Sample Number from Treatment/Time
-Clean_df3 <- extract(Clean_df3, Tr_Time, into = c("Tr", "Time"), "(.{1})(.{1})", remove=T) #separate Treatment from Time
-
-
-
 
 
 # Save table ####
-write.csv(Clean_df, "DATA_GC_Exudates_ISTD-correction_Area.csv", row.names=FALSE)
-
-write.csv(Clean_df, "DATA_GC_Exudates_noISTD-correction_Hight.csv", row.names=FALSE)
-
-write.csv(Clean_df3, "DATA_GC_Exudates_noRelativeAbundance_ISTD-correction.csv", row.names=FALSE)
-
-
+write.csv(Clean_df, file = paste("Exudates_ISTD", Title,".csv", sep = "_"), row.names=FALSE)
