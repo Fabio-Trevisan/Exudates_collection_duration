@@ -2,3 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
+DATA_Exudates_Area.txt
+DATA_Exudates_Height.txt
+DATA_Exudates_Normalized_(lowess).txt
