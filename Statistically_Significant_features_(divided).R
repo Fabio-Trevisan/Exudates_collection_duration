@@ -119,6 +119,3 @@ Clean_df <- Clean_df[!str_detect(names(Clean_df), "Blank")]
 
 #save
 write.csv(Clean_df, file = paste("Exudates_Significant", Filter, ".csv", sep="_"), row.names=FALSE)
-
-
-

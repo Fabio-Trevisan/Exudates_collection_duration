@@ -21,9 +21,6 @@ df <- read.csv("Exudates_Significant.csv", sep=",",
 Caption <- "Significant"
 
 #Dataset Uniformation ####
-names(df) <- substring(names(df), 3)
-colnames(df)[colnames(df) == ""] <- "Tr"
-colnames(df)[colnames(df) == "me"] <- "Time"
 c <- c("Tr","Time")
 table <- melt(df, na.rm = FALSE, value.name = "Value", id = c, variable = "RI_mz")
 
@@ -48,6 +45,9 @@ names(Subsets) <- vector_RImz
 Levene_test <- lapply(split(table, table$RI_mz), function(i){
   levene_test(Value ~ Tr * Time, data = i)
 })
+sink("Levene_test_Homogeneity.csv")
+Levene_test
+sink(NULL)
 
 ##2. Normality
 ##Shapiro-Wilk test for all single Trs
@@ -55,7 +55,7 @@ SW_test <- table %>%
   group_by(Time, Tr, RI_mz) %>%
   shapiro_test(Value)
 View(SW_test)
-write.table(SW_test, file = "13C_ShapiroWilk_test_results_2.0.csv", quote = FALSE, sep = ";")
+write.table(SW_test, file = "ShapiroWilk_test_Normality.csv", quote = FALSE, sep = ";")
 
 ##3. Indipendency
 #Data are indepent by experimental design!
@@ -67,9 +67,9 @@ write.table(SW_test, file = "13C_ShapiroWilk_test_results_2.0.csv", quote = FALS
 TwoWay_Anova <- lapply(split(table, table$RI_mz), function(i){
   anova(lm(Value ~ Tr * Time, data = i))
 })
-write.table(TwoWay_Anova, file = paste("TwoWay_Anova_", Caption, ".csv"), quote = FALSE, sep = ";")
+write.table(TwoWay_Anova, file = paste("TwoWay_Anova_", Caption, ".csv",sep = ""), quote = FALSE, sep = ";")
 
-sink(paste("TwoWay_Anova_2.0_", Caption, ".csv"))
+sink(paste("TwoWay_Anova_2.0_", Caption, ".csv", sep = ""))
 TwoWay_Anova
 sink(NULL)
 
@@ -92,7 +92,7 @@ OneWay_Anova_Ti2 <- lapply(vector_RImz, function(m){
 names(OneWay_Anova_Ti2) <- vector_RImz
 
 ##OneWayAnova save
-sink(paste("OneWayAnova_Ti_", Caption, ".csv" ))
+sink(paste("OneWayAnova_Ti_", Caption, ".csv", sep = ""))
 OneWay_Anova_Ti2 
 sink(NULL)
 
@@ -121,7 +121,7 @@ for(i in vector_RImz) {
   list <- names(OneWay_Anova_Ti[[i]]) 
   names(HSD_Ti_groups[[i]]) <- list
 }
-sink(paste("HSD_Ti_", Caption, ".csv" ))
+sink(paste("HSD_Ti_", Caption, ".csv", sep = ""))
 HSD_Ti_groups 
 sink(NULL)
 
@@ -147,7 +147,7 @@ names(OneWay_Anova_Tr2) <- vector_RImz
 
 
 ##OneWayAnova save
-sink(paste("OneWayAnova_Tr_", Caption, ".csv" ))
+sink(paste("OneWayAnova_Tr_", Caption, ".csv", sep = ""))
 OneWay_Anova_Tr2 
 sink(NULL)
 
@@ -178,6 +178,6 @@ for(i in vector_RImz) {
   list <- names(OneWay_Anova_Tr[[i]]) 
   names(HSD_Tr_groups[[i]]) <- list
 }
-sink(paste("HSD_Tr_", Caption, ".csv" ))
+sink(paste("HSD_Tr_", Caption, ".csv", sep = ""))
 HSD_Tr_groups 
 sink(NULL)

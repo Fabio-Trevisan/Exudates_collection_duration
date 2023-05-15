@@ -52,6 +52,7 @@ PCA_6 <-ggbiplot(Exudates.6, var.axes=FALSE, ellipse=TRUE, labels=H6$Sample, gro
 
 ggarrange(PCA_2, PCA_4, PCA_6, 
           labels = c("A", "B", "C"),
+          align = "hv",
           ncol = 2, nrow = 2)
 
 # Save
@@ -90,25 +91,26 @@ PAC_C <- ggbiplot(Exudates.C, var.axes=FALSE, ellipse=TRUE,  labels=C$Sample, gr
   theme_classic() + 
   ggtitle(TitleC) + 
   theme(plot.title = element_text(size=20, face="bold", hjust=0.5)) +
-  scale_color_manual(values=c("darkorange","red","brown"))
+  scale_color_manual(values=c("lightblue","steelblue","navy"))
 PAC_P <- ggbiplot(Exudates.P, var.axes=FALSE, ellipse=TRUE,  labels=P$Sample, groups=P$Time, scale = 1) +
   theme_classic() + 
   ggtitle(TitleP) + 
   theme(plot.title = element_text(size=20, face="bold", hjust=0.5)) +
-  scale_color_manual(values=c("darkorange","red","brown"))
+  scale_color_manual(values=c("lightblue","steelblue","navy"))
 PAC_F <- ggbiplot(Exudates.F, var.axes=FALSE, ellipse=TRUE,  labels=Fe$Sample, groups=Fe$Time, scale = 1) +
   theme_classic() + 
   ggtitle(TitleF) + 
   theme(plot.title = element_text(size=20, face="bold", hjust=0.5)) +
-  scale_color_manual(values=c("darkorange","red","brown"))
+  scale_color_manual(values=c("lightblue","steelblue","navy"))
 PAC_M <- ggbiplot(Exudates.M, var.axes=FALSE, ellipse=TRUE,  labels=M$Sample, groups=M$Time, scale = 1) +
   theme_classic() + 
   ggtitle(TitleM) + 
   theme(plot.title = element_text(size=20, face="bold", hjust=0.5)) +
-  scale_color_manual(values=c("darkorange","red","brown"))
+  scale_color_manual(values=c("lightblue","steelblue","navy"))
 
 ggarrange(PAC_C, PAC_P, PAC_F, PAC_M, 
           labels = c("A", "B", "C", "D"),
+          align = "hv",
           ncol = 2, nrow = 2)
 
 # Save

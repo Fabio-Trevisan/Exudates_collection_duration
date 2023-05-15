@@ -15,7 +15,7 @@ df <- read.csv("Exudates_Significant.csv", sep=",",
                header=T)
 Caption <- "Significant"
 
-df <- read.csv("Exudates_Significant_Time.csv", sep=",",
+df <- read.csv("Exudates_Significant_Time_.csv", sep=",",
                header=T)
 Caption <- "Significant_Time"
 
@@ -45,10 +45,9 @@ p1 <- ggplot(table_1_sum, aes(x= Tr, value, fill=Time)) +
   theme_bw() + geom_boxplot(width=0.5) +
   facet_wrap(~variable, scales="free") + 
   ylab("Relative abundance") + xlab("Treatments") + 
-  scale_fill_manual(values=c("darkorange","red","brown"))
+  scale_fill_manual(values=c("lightblue","steelblue","navy"))
 p1
 t <- "Tr"
-
 
 # Save
 ggsave(filename = paste("BoxPlot_Exudates", t, Caption, ".pdf", sep = "_"), 
