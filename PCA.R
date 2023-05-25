@@ -37,17 +37,17 @@ Exudates.6 <- prcomp(H6[,c(4:nr.)], scale = TRUE) #(change number of columns -> 
 PCA_2 <- ggbiplot(Exudates.2, var.axes=FALSE, ellipse=TRUE, labels=H2$Sample, groups=H2$Tr, scale = 1) +
   theme_classic() + 
   ggtitle(Title2) + 
-  theme(plot.title = element_text(size=20, face="bold", hjust=0.5)) + 
+  theme(plot.title = element_text(size=15, face="bold", hjust=0.5)) + 
   scale_color_manual(values=c("grey77", "darkorange2", "slateblue3", "skyblue3"))
 PCA_4 <- ggbiplot(Exudates.4, var.axes=FALSE, ellipse=TRUE, labels=H4$Sample, groups=H4$Tr, scale = 1) +
   theme_classic() + 
   ggtitle(Title4) + 
-  theme(plot.title = element_text(size=20, face="bold", hjust=0.5)) + 
+  theme(plot.title = element_text(size=15, face="bold", hjust=0.5)) + 
   scale_color_manual(values=c("grey77", "darkorange2", "slateblue3", "skyblue3"))
 PCA_6 <-ggbiplot(Exudates.6, var.axes=FALSE, ellipse=TRUE, labels=H6$Sample, groups=H6$Tr, scale = 1) +
   theme_classic() + 
   ggtitle(Title6) + 
-  theme(plot.title = element_text(size=20, face="bold", hjust=0.5)) + 
+  theme(plot.title = element_text(size=15, face="bold", hjust=0.5)) + 
   scale_color_manual(values=c("grey77", "darkorange2", "slateblue3", "skyblue3"))
 
 ggarrange(PCA_2, PCA_4, PCA_6, 
