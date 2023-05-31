@@ -114,6 +114,12 @@ nr. <- nr.-9
 
 
 
+#Identified Compound Table ####
+Identified_compounds <- Blank_filtered[, 2:4]
+write.table(Identified_compounds, file = "Identified_compounds.csv", quote = FALSE, sep = ";")
+
+
+
 # ISTD normalization #### 
 Metabolites_info <- Blank_filtered[,1:5] #to add at the end 
 df <- Blank_filtered[,6:nr.] #select only numerical variables

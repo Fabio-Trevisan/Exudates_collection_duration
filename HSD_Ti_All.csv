@@ -1,0 +1,910 @@
+$X.Pyruvic.acid..1TMS.
+$X.Pyruvic.acid..1TMS.$C
+      Value groups
+6 0.2550316      a
+4 0.1175568      b
+2 0.1047230      b
+
+$X.Pyruvic.acid..1TMS.$F
+      Value groups
+2 0.3121650      a
+6 0.1454505      a
+4 0.1370526      a
+
+$X.Pyruvic.acid..1TMS.$M
+      Value groups
+4 0.5568530      a
+2 0.4572519      a
+6 0.3861491      a
+
+$X.Pyruvic.acid..1TMS.$P
+      Value groups
+6 0.7204497      a
+2 0.5680822      a
+4 0.4816319      a
+
+
+$X.Lactic.Acid..2TMS.
+$X.Lactic.Acid..2TMS.$C
+       Value groups
+6 0.16384432      a
+4 0.11344271      a
+2 0.07963629      a
+
+$X.Lactic.Acid..2TMS.$F
+      Value groups
+2 0.3191832      a
+4 0.1416352      b
+6 0.1384148      b
+
+$X.Lactic.Acid..2TMS.$M
+      Value groups
+4 0.5591035      a
+2 0.3839262     ab
+6 0.3336050      b
+
+$X.Lactic.Acid..2TMS.$P
+      Value groups
+6 0.7022545      a
+2 0.6003859      a
+4 0.4260922      a
+
+
+$X.Valine..1TMS.
+$X.Valine..1TMS.$C
+       Value groups
+6 0.15132970      a
+2 0.10461600      a
+4 0.09521063      a
+
+$X.Valine..1TMS.$F
+       Value groups
+2 0.37755227      a
+6 0.15172389      a
+4 0.08656081      a
+
+$X.Valine..1TMS.$M
+      Value groups
+2 0.4942771      a
+4 0.4143106      a
+6 0.2393342      a
+
+$X.Valine..1TMS.$P
+      Value groups
+2 0.4802390      a
+6 0.3540122      a
+4 0.2919930      a
+
+
+$X.Alanine..2TMS.
+$X.Alanine..2TMS.$C
+        Value groups
+4 0.029761033      a
+6 0.003296362      a
+2 0.001656257      a
+
+$X.Alanine..2TMS.$F
+        Value groups
+2 0.022155380      a
+6 0.005598247      a
+4 0.003372173      a
+
+$X.Alanine..2TMS.$M
+       Value groups
+4 0.10315835      a
+6 0.08464663      a
+2 0.01791698      a
+
+$X.Alanine..2TMS.$P
+       Value groups
+6 0.29409222      a
+2 0.12318508      a
+4 0.01372543      a
+
+
+$X.Leucine..2TMS.
+$X.Leucine..2TMS.$C
+       Value groups
+4 0.08716620      a
+6 0.07956548      a
+2 0.05820885      a
+
+$X.Leucine..2TMS.$F
+       Value groups
+2 0.14207670      a
+6 0.09679034      a
+4 0.08065484      a
+
+$X.Leucine..2TMS.$M
+      Value groups
+4 0.2824342      a
+6 0.2540077      a
+2 0.2234021      a
+
+$X.Leucine..2TMS.$P
+      Value groups
+6 0.5058239      a
+2 0.3048491      a
+4 0.2509973      a
+
+
+$X.Threonine..2TMS.
+$X.Threonine..2TMS.$C
+      Value groups
+6 0.3181562      a
+4 0.1810336      b
+2 0.1484400      b
+
+$X.Threonine..2TMS.$F
+      Value groups
+2 0.3812870      a
+6 0.3386683     ab
+4 0.2174939      b
+
+$X.Threonine..2TMS.$M
+      Value groups
+4 0.4844119      a
+2 0.4820149      a
+6 0.3677354      a
+
+$X.Threonine..2TMS.$P
+      Value groups
+6 0.5866658      a
+2 0.5453269      a
+4 0.4340616      a
+
+
+$X.Proline..2TMS.
+$X.Proline..2TMS.$C
+       Value groups
+4 0.05093018      a
+6 0.03599456      a
+2 0.02160168      a
+
+$X.Proline..2TMS.$F
+       Value groups
+2 0.09578532      a
+6 0.04233886      a
+4 0.02711751      a
+
+$X.Proline..2TMS.$M
+      Value groups
+6 0.1486916      a
+4 0.1268124      a
+2 0.1059524      a
+
+$X.Proline..2TMS.$P
+      Value groups
+6 0.3312010      a
+2 0.1896933      a
+4 0.1155748      a
+
+
+$X.Succinic.acid..2TMS.
+$X.Succinic.acid..2TMS.$C
+       Value groups
+2 0.06086085      a
+6 0.04795726      a
+4 0.04465328      a
+
+$X.Succinic.acid..2TMS.$F
+      Value groups
+2 0.5200661      a
+4 0.1609089     ab
+6 0.1218171      b
+
+$X.Succinic.acid..2TMS.$M
+      Value groups
+4 0.2520095      a
+6 0.2375662      a
+2 0.2146628      a
+
+$X.Succinic.acid..2TMS.$P
+      Value groups
+2 0.3459996      a
+6 0.3457674      a
+4 0.3044942      a
+
+
+$X.Glycine..3TMS.
+$X.Glycine..3TMS.$C
+      Value groups
+6 0.1651570      a
+4 0.1168716      a
+2 0.0895828      a
+
+$X.Glycine..3TMS.$F
+       Value groups
+2 0.35936395      a
+6 0.12575074     ab
+4 0.06481834      b
+
+$X.Glycine..3TMS.$M
+      Value groups
+4 0.5532217      a
+2 0.4789478      a
+6 0.2384322      b
+
+$X.Glycine..3TMS.$P
+      Value groups
+2 0.5917065      a
+6 0.5909518      a
+4 0.4357960      a
+
+
+$X.Fumaric.acid..2TMS.
+$X.Fumaric.acid..2TMS.$C
+       Value groups
+6 0.01620395      a
+2 0.01564225      a
+4 0.01431350      a
+
+$X.Fumaric.acid..2TMS.$F
+       Value groups
+2 0.25865921      a
+6 0.03365101      a
+4 0.02914180      a
+
+$X.Fumaric.acid..2TMS.$M
+       Value groups
+2 0.05421866      a
+4 0.04649276      a
+6 0.04165537      a
+
+$X.Fumaric.acid..2TMS.$P
+       Value groups
+6 0.07071044      a
+2 0.06527769      a
+4 0.05886026      a
+
+
+$X.Serine..3TMS.
+$X.Serine..3TMS.$C
+       Value groups
+6 0.15658095      a
+4 0.12777876      a
+2 0.04057074      a
+
+$X.Serine..3TMS.$F
+        Value groups
+2 0.130880507      a
+6 0.039690103      a
+4 0.009440827      a
+
+$X.Serine..3TMS.$M
+       Value groups
+4 0.13177699      a
+2 0.12940648      a
+6 0.07438008      a
+
+$X.Serine..3TMS.$P
+       Value groups
+6 0.30303915      a
+2 0.24765960      a
+4 0.04547797      a
+
+
+$X.Methionine..1TMS.
+$X.Methionine..1TMS.$C
+      Value groups
+6 0.2323179      a
+2 0.1709862      a
+4 0.1497120      a
+
+$X.Methionine..1TMS.$F
+      Value groups
+2 0.4797611      a
+6 0.2458702      a
+4 0.2414409      a
+
+$X.Methionine..1TMS.$M
+      Value groups
+4 0.5226652      a
+2 0.4879713      a
+6 0.3733293      a
+
+$X.Methionine..1TMS.$P
+      Value groups
+2 0.6846219      a
+6 0.5790260      a
+4 0.4494100      a
+
+
+$X.Aspartic.acid..2TMS.
+$X.Aspartic.acid..2TMS.$C
+       Value groups
+6 0.04146812      a
+4 0.03031987      a
+2 0.02965100      a
+
+$X.Aspartic.acid..2TMS.$F
+       Value groups
+2 0.25936464      a
+6 0.06131732      a
+4 0.02792824      a
+
+$X.Aspartic.acid..2TMS.$M
+       Value groups
+4 0.13246541      a
+2 0.13097329      a
+6 0.07815128      a
+
+$X.Aspartic.acid..2TMS.$P
+      Value groups
+6 0.3460029      a
+4 0.1507042      a
+2 0.1464876      a
+
+
+$X.Glutamine...H2O...2TMS.
+$X.Glutamine...H2O...2TMS.$C
+       Value groups
+2 0.06960133      a
+6 0.04933092      a
+4 0.03729729      a
+
+$X.Glutamine...H2O...2TMS.$F
+       Value groups
+2 0.12082986      a
+6 0.05549376     ab
+4 0.02679775      b
+
+$X.Glutamine...H2O...2TMS.$M
+       Value groups
+2 0.35074159      a
+6 0.18978517      a
+4 0.07359535      a
+
+$X.Glutamine...H2O...2TMS.$P
+      Value groups
+4 0.1586493      a
+6 0.1402156      a
+2 0.1364914      a
+
+
+$X.Malic.acid..3TMS.
+$X.Malic.acid..3TMS.$C
+        Value groups
+2 0.007211834      a
+4 0.002012939      a
+6 0.001215764      a
+
+$X.Malic.acid..3TMS.$F
+        Value groups
+2 0.271768832      a
+6 0.011077253      a
+4 0.007348829      a
+
+$X.Malic.acid..3TMS.$M
+        Value groups
+2 0.010606046      a
+4 0.004003026      a
+6 0.002542663      a
+
+$X.Malic.acid..3TMS.$P
+        Value groups
+2 0.010281145      a
+4 0.005213694      a
+6 0.002662189      a
+
+
+$X.Glutamic.acid..2TMS.
+$X.Glutamic.acid..2TMS.$C
+      Value groups
+4 0.1475208      a
+6 0.1436192      a
+2 0.1135714      a
+
+$X.Glutamic.acid..2TMS.$F
+      Value groups
+2 0.4296629      a
+6 0.2396998      a
+4 0.1552579      a
+
+$X.Glutamic.acid..2TMS.$M
+      Value groups
+2 0.4690172      a
+4 0.4039775      a
+6 0.3477284      a
+
+$X.Glutamic.acid..2TMS.$P
+      Value groups
+2 0.6206335      a
+4 0.5204366      a
+6 0.4909325      a
+
+
+$X.2.Oxoglutaric.acid..1MEOX...2TMS..BP
+$X.2.Oxoglutaric.acid..1MEOX...2TMS..BP$C
+       Value groups
+4 0.08509536      a
+2 0.05815190      a
+6 0.05044666      a
+
+$X.2.Oxoglutaric.acid..1MEOX...2TMS..BP$F
+       Value groups
+2 0.35177490      a
+4 0.12953988      a
+6 0.06819365      a
+
+$X.2.Oxoglutaric.acid..1MEOX...2TMS..BP$M
+       Value groups
+6 0.11225318      a
+4 0.11003900      a
+2 0.08223434      a
+
+$X.2.Oxoglutaric.acid..1MEOX...2TMS..BP$P
+      Value groups
+2 0.2741051      a
+6 0.1342985     ab
+4 0.1297639      b
+
+
+$X.Threonic.acid..4TMS.
+$X.Threonic.acid..4TMS.$C
+      Value groups
+2 0.2515958      a
+6 0.1673358      a
+4 0.1449588      a
+
+$X.Threonic.acid..4TMS.$F
+      Value groups
+2 0.5719530      a
+4 0.2907742      a
+6 0.2424331      a
+
+$X.Threonic.acid..4TMS.$M
+       Value groups
+4 0.17571818      a
+2 0.12480260      a
+6 0.06974764      a
+
+$X.Threonic.acid..4TMS.$P
+      Value groups
+2 0.2660421      a
+6 0.2285305      a
+4 0.2067157      a
+
+
+$X.Phenylalanine..2TMS.
+$X.Phenylalanine..2TMS.$C
+      Value groups
+6 0.3027217      a
+4 0.2259071      a
+2 0.1622265      a
+
+$X.Phenylalanine..2TMS.$F
+       Value groups
+2 0.31715337      a
+6 0.24441441      a
+4 0.08836857      a
+
+$X.Phenylalanine..2TMS.$M
+      Value groups
+2 0.4098057      a
+4 0.3131908      a
+6 0.2121677      a
+
+$X.Phenylalanine..2TMS.$P
+      Value groups
+2 0.4857862      a
+6 0.4431399      a
+4 0.3614514      a
+
+
+$X.Asparagine..3TMS.
+$X.Asparagine..3TMS.$C
+      Value groups
+2 0.1760376      a
+6 0.1369097      a
+4 0.1202520      a
+
+$X.Asparagine..3TMS.$F
+      Value groups
+2 0.5598438      a
+4 0.2282130      a
+6 0.1974900      a
+
+$X.Asparagine..3TMS.$M
+      Value groups
+4 0.2522902      a
+2 0.2378298      a
+6 0.2229813      a
+
+$X.Asparagine..3TMS.$P
+      Value groups
+6 0.3832675      a
+2 0.3412276      a
+4 0.2757935      a
+
+
+$X.Putrescine..4TMS.
+$X.Putrescine..4TMS.$C
+      Value groups
+6 0.2315292      a
+2 0.2308520      a
+4 0.2242275      a
+
+$X.Putrescine..4TMS.$F
+      Value groups
+2 0.3136137      a
+4 0.1470560      a
+6 0.1203802      a
+
+$X.Putrescine..4TMS.$M
+      Value groups
+2 0.3800932      a
+6 0.1807533      b
+4 0.1755141      b
+
+$X.Putrescine..4TMS.$P
+      Value groups
+2 0.3396137      a
+4 0.2657132      a
+6 0.1847240      a
+
+
+$X.Ornithine..4TMS.
+$X.Ornithine..4TMS.$C
+      Value groups
+6 0.1631556      a
+4 0.1403748      a
+2 0.1156392      a
+
+$X.Ornithine..4TMS.$F
+      Value groups
+2 0.3034366      a
+6 0.2222949     ab
+4 0.1871310      b
+
+$X.Ornithine..4TMS.$M
+      Value groups
+2 0.4640368      a
+4 0.4486472      a
+6 0.3379057      a
+
+$X.Ornithine..4TMS.$P
+      Value groups
+6 0.5958411      a
+4 0.5913547      a
+2 0.5727363      a
+
+
+$X.Citric.acid..4TMS.
+$X.Citric.acid..4TMS.$C
+        Value groups
+2 0.012264287      a
+4 0.004847641      a
+6 0.004347996      a
+
+$X.Citric.acid..4TMS.$F
+       Value groups
+2 0.37104785      a
+4 0.03727032      b
+6 0.01168389      b
+
+$X.Citric.acid..4TMS.$M
+       Value groups
+4 0.08389680      a
+2 0.03202100      a
+6 0.00833022      a
+
+$X.Citric.acid..4TMS.$P
+       Value groups
+2 0.24583750      a
+6 0.20365047      a
+4 0.08180605      a
+
+
+$X.Fructose..1MEOX...5TMS..MP
+$X.Fructose..1MEOX...5TMS..MP$C
+       Value groups
+2 0.16258725      a
+6 0.06073875      a
+4 0.04036736      a
+
+$X.Fructose..1MEOX...5TMS..MP$F
+       Value groups
+2 0.21742683      a
+4 0.15797469      a
+6 0.04335616      a
+
+$X.Fructose..1MEOX...5TMS..MP$M
+       Value groups
+4 0.04385040      a
+2 0.01765898      a
+6 0.01306833      a
+
+$X.Fructose..1MEOX...5TMS..MP$P
+       Value groups
+6 0.25669547      a
+2 0.18988512      a
+4 0.03745928      a
+
+
+$X.Galactose..1MEOX...5TMS..MP
+$X.Galactose..1MEOX...5TMS..MP$C
+       Value groups
+2 0.13741487      a
+6 0.04228979      a
+4 0.01993071      a
+
+$X.Galactose..1MEOX...5TMS..MP$F
+       Value groups
+2 0.20914830      a
+6 0.05021775      a
+4 0.03027307      a
+
+$X.Galactose..1MEOX...5TMS..MP$M
+       Value groups
+4 0.07611171      a
+2 0.03180954      a
+6 0.02677461      a
+
+$X.Galactose..1MEOX...5TMS..MP$P
+       Value groups
+2 0.26627314      a
+6 0.25086297      a
+4 0.04952444      a
+
+
+$X.Lysine..4TMS.
+$X.Lysine..4TMS.$C
+      Value groups
+6 0.2363238      a
+4 0.1772401      a
+2 0.1747138      a
+
+$X.Lysine..4TMS.$F
+      Value groups
+2 0.3446752      a
+6 0.2446139      a
+4 0.1666574      a
+
+$X.Lysine..4TMS.$M
+      Value groups
+2 0.4748986      a
+4 0.3791478      a
+6 0.2804806      a
+
+$X.Lysine..4TMS.$P
+      Value groups
+2 0.5318323      a
+6 0.5227064      a
+4 0.4343012      a
+
+
+$X.Tyrosine..3TMS.
+$X.Tyrosine..3TMS.$C
+       Value groups
+6 0.10624755      a
+4 0.07649120      a
+2 0.07501864      a
+
+$X.Tyrosine..3TMS.$F
+       Value groups
+2 0.28036495      a
+6 0.10134759      a
+4 0.05370739      a
+
+$X.Tyrosine..3TMS.$M
+      Value groups
+4 0.1475951      a
+2 0.1311891      a
+6 0.0844878      a
+
+$X.Tyrosine..3TMS.$P
+      Value groups
+2 0.3270699      a
+6 0.2015164      a
+4 0.1846085      a
+
+
+$X.Glucose..1MEOX...5TMS..BP
+$X.Glucose..1MEOX...5TMS..BP$C
+      Value groups
+6 0.1278546      a
+4 0.1135037      a
+2 0.1128893      a
+
+$X.Glucose..1MEOX...5TMS..BP$F
+      Value groups
+2 0.3238186      a
+6 0.2927973      a
+4 0.1127716      a
+
+$X.Glucose..1MEOX...5TMS..BP$M
+      Value groups
+2 0.1678507      a
+4 0.1500556      a
+6 0.1017763      a
+
+$X.Glucose..1MEOX...5TMS..BP$P
+      Value groups
+2 0.4326947      a
+6 0.3153103      a
+4 0.3110216      a
+
+
+$X.Gluconic.acid..6TMS.
+$X.Gluconic.acid..6TMS.$C
+        Value groups
+2 0.050125928      a
+6 0.003811739      a
+4 0.002931057      a
+
+$X.Gluconic.acid..6TMS.$F
+       Value groups
+2 0.34060349      a
+4 0.14304522      a
+6 0.01726815      a
+
+$X.Gluconic.acid..6TMS.$M
+        Value groups
+2 0.006393641      a
+4 0.004226250      a
+6 0.003269796      a
+
+$X.Gluconic.acid..6TMS.$P
+        Value groups
+2 0.015406012      a
+4 0.008746303      a
+6 0.004606048      a
+
+
+$X.myo.Inositol..6TMS.
+$X.myo.Inositol..6TMS.$C
+      Value groups
+2 0.1617860      a
+6 0.1416864      a
+4 0.1093002      a
+
+$X.myo.Inositol..6TMS.$F
+      Value groups
+2 0.3653473      a
+4 0.1600420      a
+6 0.1258504      a
+
+$X.myo.Inositol..6TMS.$M
+       Value groups
+4 0.22408738      a
+2 0.14553624      a
+6 0.04073908      a
+
+$X.myo.Inositol..6TMS.$P
+      Value groups
+2 0.3276791      a
+6 0.3060127      a
+4 0.2192454      a
+
+
+$X.Sucrose..8TMS.
+$X.Sucrose..8TMS.$C
+        Value groups
+6 0.033571207      a
+2 0.004823878      a
+4 0.003785465      a
+
+$X.Sucrose..8TMS.$F
+       Value groups
+2 0.01591886      a
+4 0.01149499      a
+6 0.01067262      a
+
+$X.Sucrose..8TMS.$M
+       Value groups
+4 0.01793570      a
+2 0.01425179      a
+6 0.01369618      a
+
+$X.Sucrose..8TMS.$P
+       Value groups
+2 0.21146018      a
+6 0.10038485      a
+4 0.01151602      a
+
+
+$X.Trehalose..8TMS.
+$X.Trehalose..8TMS.$C
+       Value groups
+6 0.04574217      a
+4 0.04152574      a
+2 0.03963051      a
+
+$X.Trehalose..8TMS.$F
+       Value groups
+2 0.17082510      a
+6 0.07567350      a
+4 0.05809957      a
+
+$X.Trehalose..8TMS.$M
+       Value groups
+4 0.18342689      a
+2 0.10719611      a
+6 0.08699423      a
+
+$X.Trehalose..8TMS.$P
+      Value groups
+4 0.3547656      a
+2 0.1889839      a
+6 0.1666904      a
+
+
+$X.Maltose..1MEOX...8TMS..MP
+$X.Maltose..1MEOX...8TMS..MP$C
+      Value groups
+6 0.2950326      a
+2 0.2321740      a
+4 0.1894334      a
+
+$X.Maltose..1MEOX...8TMS..MP$F
+      Value groups
+6 0.5230075      a
+2 0.5159121      a
+4 0.2783108      a
+
+$X.Maltose..1MEOX...8TMS..MP$M
+      Value groups
+4 0.2048085      a
+2 0.1511003      a
+6 0.1282564      a
+
+$X.Maltose..1MEOX...8TMS..MP$P
+      Value groups
+2 0.3327800      a
+4 0.2764301      a
+6 0.2450655      a
+
+
+$X.Melibiose..1MEOX...8TMS..BP
+$X.Melibiose..1MEOX...8TMS..BP$C
+      Value groups
+2 0.1694609      a
+4 0.1493687      a
+6 0.1272377      a
+
+$X.Melibiose..1MEOX...8TMS..BP$F
+       Value groups
+2 0.38782283      a
+6 0.17688118     ab
+4 0.08687223      b
+
+$X.Melibiose..1MEOX...8TMS..BP$M
+      Value groups
+2 0.2682658      a
+6 0.1970342      a
+4 0.1945348      a
+
+$X.Melibiose..1MEOX...8TMS..BP$P
+      Value groups
+2 0.4964682      a
+4 0.3635201      a
+6 0.2396571      a
+
+
+$X.Galactinol..9TMS.
+$X.Galactinol..9TMS.$C
+       Value groups
+2 0.05750130      a
+6 0.05749925      a
+4 0.02503470      a
+
+$X.Galactinol..9TMS.$F
+      Value groups
+2 0.5132475      a
+4 0.1828927      a
+6 0.1528022      a
+
+$X.Galactinol..9TMS.$M
+       Value groups
+4 0.06852107      a
+2 0.06333056      a
+6 0.02996638      a
+
+$X.Galactinol..9TMS.$P
+       Value groups
+2 0.23075509      a
+4 0.19254406      a
+6 0.07979383      a
+
+

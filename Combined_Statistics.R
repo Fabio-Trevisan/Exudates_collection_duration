@@ -30,6 +30,19 @@ table$RI_mz <- factor(table$RI_mz)
 table$Time <- factor(table$Time)
 table$Tr <- factor(table$Tr)
 
+
+
+#Summary Table ####
+Summary_table <- ddply(table, c("Tr", "Time", "RI_mz"), summarise,
+                       N    = sum(!is.na(Value)),
+                       mean = mean(Value, na.rm=TRUE),
+                       sd   = sd(Value, na.rm=TRUE),
+                       se   = sd / sqrt(N))
+Summary_table
+write.table(Summary_table, file = "Summary_table.csv", quote = FALSE, sep = ";")
+
+
+
 #create Subsets according to RI_mz ####
 Subsets <- lapply(vector_RImz, function(i){ 
   i <- subset(table, RI_mz == i)

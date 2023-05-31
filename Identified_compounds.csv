@@ -1,0 +1,37 @@
+Average RI;Quant mass;Metabolite name
+40;1061.43;174;*Pyruvic acid (1TMS)
+43;1072.17;117;*Lactic Acid (2TMS)
+58;1097.73;72;*Valine (1TMS)
+66;1108.68;116;*Alanine (2TMS)
+164;1279.45;158;*Leucine (2TMS)
+175;1301.78;117;*Threonine (2TMS)
+178;1308.26;142;*Proline (2TMS)
+181;1315.44;75;*Succinic acid (2TMS)
+182;1316.3;174;*Glycine (3TMS)
+206;1347.27;245;*Fumaric acid (2TMS)
+213;1367.56;204;*Serine (3TMS)
+239;1419.18;104;*Methionine (1TMS)
+243;1430.18;160;*Aspartic acid (2TMS)
+268;1484.69;155;*Glutamine (-H2O) (2TMS)
+276;1495.56;233;*Malic acid (3TMS)
+307;1535.06;84;*Glutamic acid (2TMS)
+322;1555.98;75;*2-Oxoglutaric acid (1MEOX) (2TMS) BP
+337;1574.01;292;*Threonic acid (4TMS)
+396;1643.56;218;*Phenylalanine (2TMS)
+432;1683.4;116;*Asparagine (3TMS)
+503;1757.3;174;*Putrescine (4TMS)
+586;1838;142;*Ornithine (4TMS)
+587;1838.55;275;*13C Citric acid (4TMS)
+588;1838.39;273;*Citric acid (4TMS)
+641;1901.72;103;*Fructose (1MEOX) (5TMS) MP
+669;1930.38;205;*Galactose (1MEOX) (5TMS) MP
+674;1938.93;156;*Lysine (4TMS)
+698;1958.26;218;*Tyrosine (3TMS)
+704;1965.18;319;*Glucose (1MEOX) (5TMS) BP
+781;2056.94;333;*Gluconic acid (6TMS)
+846;2131.28;217;*myo-Inositol (6TMS)
+1230;2699.76;361;*Sucrose (8TMS)
+1281;2811.51;191;*Trehalose (8TMS)
+1283;2829.46;204;*Maltose (1MEOX) (8TMS) MP
+1340;2960.88;204;*Melibiose (1MEOX) (8TMS) BP
+1366;3070.03;204;*Galactinol (9TMS)
