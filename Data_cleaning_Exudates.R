@@ -134,7 +134,7 @@ ISTD_Norm <- ISTD_Norm[!(row.names(ISTD_Norm) %in% "*13C Citric acid (4TMS)"), ]
 
 
 
-# FW or root weight normalization #### 
+# Root weight normalization #### 
 FW <- read.csv("DATA_Exudates_Root_weight.csv", sep=";", header=F) #get FW or root weight
 row.names(FW) <-  unlist(FW[,1]) #rename rows
 names(FW) <-  unlist(FW[1,]) #rename columns
