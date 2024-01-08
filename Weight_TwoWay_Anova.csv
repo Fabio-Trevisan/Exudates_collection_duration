@@ -1,0 +1,10 @@
+Analysis of Variance Table
+
+Response: FW
+          Df Sum Sq Mean Sq F value    Pr(>F)    
+Tr         3 3.7723 1.25742 25.2576 5.955e-10 ***
+Time       2 0.0234 0.01170  0.2350    0.7915    
+Tr:Time    6 0.2255 0.03759  0.7551    0.6085    
+Residuals 48 2.3896 0.04978                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

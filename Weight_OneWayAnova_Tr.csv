@@ -1,0 +1,30 @@
+$`2`
+Analysis of Variance Table
+
+Response: FW
+          Df  Sum Sq Mean Sq F value    Pr(>F)    
+Tr         3 2.09447 0.69816  11.641 0.0002691 ***
+Residuals 16 0.95958 0.05997                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$`4`
+Analysis of Variance Table
+
+Response: FW
+          Df  Sum Sq Mean Sq F value   Pr(>F)   
+Tr         3 1.14731 0.38244  8.5249 0.001303 **
+Residuals 16 0.71778 0.04486                    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$`6`
+Analysis of Variance Table
+
+Response: FW
+          Df  Sum Sq  Mean Sq F value   Pr(>F)   
+Tr         3 0.75603 0.252010  5.6611 0.007714 **
+Residuals 16 0.71226 0.044516                    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
